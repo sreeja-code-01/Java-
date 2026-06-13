@@ -27,3 +27,18 @@ import java.util.Scanner;
     }
   }
 -------------
+Swappimg of 2 no.s
+import java.util.Scanner;
+public  class Swap{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+int a=5;
+int b=6;
+int temp=a;
+a=b;
+b=temp;
+
+System.out.println("a= " + a + "b= " +b);  
+}
+
