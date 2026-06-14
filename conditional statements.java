@@ -15,3 +15,20 @@ public class Main {
    }
 }
 ----------
+wap to check whether a person can vote
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+
+        if (a >=18) {
+            System.out.println("vote.");
+        } else {
+            System.out.println("cannot vote");
+        }
+    }
+-----------
+}
