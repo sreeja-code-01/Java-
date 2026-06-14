@@ -41,4 +41,18 @@ b=temp;
 
 System.out.println("a= " + a + "b= " +b);  
 }
+---------
+simple interest
+ import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int p=sc.nextInt();
+        int t=sc.nextInt();
+        int r=sc.nextInt();
+        int si=(p*t*r)/100;
+            System.out.println("simple interest="+si);
+        
+    }
+---------
 
