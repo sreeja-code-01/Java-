@@ -50,4 +50,22 @@ import java.util.Scanner;
     }
     }
 -----------
+wap to check whether a no. is divisible by 3:
+import java.util.Scanner;
+ public class Check{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+    if(a%3==0)
+    {
+        System.out.println("divisible by 3");
+    }
+    else
+    {
+        System.out.println("not Divisibleby 3.");
+    }
+
+    }
+    }
+-----------
 
