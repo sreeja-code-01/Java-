@@ -30,5 +30,24 @@ public class Main {
             System.out.println("cannot vote");
         }
     }
------------
 }
+-----------
+wap to check a no. is pos or neg:-
+import java.util.Scanner;
+ public class Check{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+    if(a>=0)
+    {
+        System.out.println("pos no.");
+    }
+    else
+    {
+        System.out.println("neg no.");
+    }
+
+    }
+    }
+-----------
+
