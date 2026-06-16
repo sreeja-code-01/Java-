@@ -218,3 +218,19 @@ public class Main {
 }
 }
 -------
+wap to check  a no. is zero or not
+public class Main {
+    public static void main(String[] args) {
+        int a=7;
+        if(a==0)
+        {
+        System.out.println("no.is zero");
+        }
+        else
+        {
+               System.out.println("not zero");
+        }
+    }       
+    
+}
+---------
