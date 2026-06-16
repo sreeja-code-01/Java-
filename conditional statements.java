@@ -193,3 +193,28 @@ public class Main {
     }
 }
 -------
+give discount according to sge
+public class Main {
+    public static void main(String[] args) {
+        int age=17;
+        if(age<13)
+        {
+            System.out.println("discount10%");
+
+        }
+        else if(age>=13 && age<=16)
+        {
+            System.out.println("discount 7%");
+ 
+        }
+        else if(age>16 && age<=19)
+        {
+        System.out.println("discount 5%.");
+      }
+      else
+      {
+          System.out.println("discount 2%");
+      }
+}
+}
+-------
