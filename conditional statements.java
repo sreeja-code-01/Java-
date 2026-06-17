@@ -235,6 +235,35 @@ public class Main {
 }
 }
 -------
+area of diff shapes
+import java.util.Scanner;
+public class Area{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("1. Circle area");
+System.out.println("2. Square area");
+System.out.println("3.rectangle area");
+int choice=sc.nextInt();
+int r=5;
+int l=6;
+int b=7;
+int s=3;
+switch(choice)
+{
+case 1:
+System.out.println("circle area"+3.14*r*r);
+break;
+case 2:
+System.out.println("Square area"+s*s);
+break;
+case 3:
+System.out.println("rectangle area"+l*b);
+break;
+default: System.out.println("invalid choice");
+}
+}
+}
 wap to check  a no. is zero or not
 public class Main {
     public static void main(String[] args) {
